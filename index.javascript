@@ -17,16 +17,16 @@ draw = function() {
     ellipse(faceX, faceY, faceW, faceW-20); // face
     
     fill(245, 242, 210);
-    ellipse(faceX, faceY+50, faceW-90, faceW-70); // mouth
+    ellipse(faceX, faceY+5/17*faceW, faceW-faceW*9/17, faceW-7/17*faceW); // mouth
     
     fill(252, 249, 249);
-    ellipse(faceX-40, faceY-15, faceW-150, faceW-150);
-    ellipse(faceX+40, faceY-15, faceW-150, faceW-150); // eyes
+    ellipse(faceX-4/17*faceW, faceY-3/34*faceW, faceW-15/17*faceW, faceW-15/17*faceW);
+    ellipse(faceX+4/17*faceW, faceY-3/34*faceW, faceW-15/17*faceW, faceW-15/17*faceW); // eyes
     
     fill(0, 0, 0);
-    ellipse(faceX-35, faceY-15, faceW-165, faceW-165);
-    ellipse(faceX+35, faceY-15, faceW-165, faceW-165); //eyeballs
+    ellipse(faceX-7/34*faceW, faceY-3/34*faceW, faceW-33/34*faceW, faceW-33/34*faceW);
+    ellipse(faceX+7/34*faceW, faceY-3/34*faceW, faceW-33/34*faceW, faceW-33/34*faceW); //eyeballs
     
-    faceW += 3;
+    faceW += 5;
     
 };
